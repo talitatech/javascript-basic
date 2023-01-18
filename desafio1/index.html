@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - JavaScrip Básico: entendendo getElementById()</title>
     <link rel="stylesheet" href="style.css">
-    <title>Desafio 1 - JavaScrip Básico</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 </head>
+
 <body>
-    <script src="index.js">Oi</script>
+    <div id="app">
+        <div class="app-container">
+
+            <div id="task-title">
+                <h1 id="title-text">Meu Checklist</h1>
+            </div>
+
+            <div id="task-new">
+                <div id="add-button">
+                    <span>+</span>
+                    <p>Adicionar uma tarefa</p>
+                </div>
+            </div>
+
+            <div id="task-list">
+                <div class="note-line">
+                    <input class="check" type="checkbox" name="done" id="checked">
+                    <input type="text" name="task" id="tasks">
+                    <button class="w3-button w3-black w3-round-small">Deletar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        Tutorial complementar: "Javascript DOM #02 - GetElementById - indo muito além do básico" by <a
+            class="hoverFooter" href="https://youtu.be/p73ZohX37MI" target="_blank">Felipe Aguiar</a>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
